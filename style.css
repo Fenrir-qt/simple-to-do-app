@@ -4,6 +4,11 @@
   font-family: 'Rubik', sans-serif;
 }
 
+body{
+  background: rgb(0,15,36);
+  background: linear-gradient(90deg, rgba(0,15,36,1) 0%, rgba(9,59,121,1) 35%, rgba(0,136,255,1) 100%);
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -59,6 +64,7 @@
   border-collapse: collapse;
   text-align: center;
   width: 50%;
+  background-color: aliceblue;
 }
 
 .todo-table th, .todo-table td{
@@ -75,6 +81,5 @@
 .task-delete{
   width: 10%;
 }
-
 
 
