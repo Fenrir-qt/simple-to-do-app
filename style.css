@@ -82,4 +82,9 @@ body{
   width: 10%;
 }
 
+@media screen and (max-width:430px){
+  .todo-table{
+    width: 70%;
+  }
+}
 
