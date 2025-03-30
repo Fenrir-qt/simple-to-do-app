@@ -48,6 +48,13 @@ function myFunction(){
 
 };
 
+document.querySelector("#task-input").addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+        e.preventDefault();
+        document.getElementById("addBtn").click();
+    }
+});
+
 function updateLocalStorage(){
 
     let tasks = [];
