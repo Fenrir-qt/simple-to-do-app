@@ -10,7 +10,7 @@
   margin-top: 50px;
 }
 
-.weather-form {
+.todo-form {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -20,26 +20,61 @@
   background: linear-gradient(50deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
-.form-header{
+.form-header {
   text-align: center;
   color: white;
   font-weight: bold;
 }
 
-.search-btn{
+.add-btn {
   margin-top: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 7px;
-  background:rgb(48, 98, 173);
+  background: rgb(48, 98, 173);
   color: white;
   border: none;
   border-radius: 5px;
+  text-align: center;
 }
 
-.search-btn:hover{
-  background:rgba(2, 0, 36, 1) ;
+.add-btn:hover {
+  background: rgba(2, 0, 36, 1);
   transition: 0.4s;
   color: grey;
 }
+
+.list-header{
+  text-align: center;
+}
+
+.table-container{
+  display: flex;
+  justify-content: center;
+}
+
+.todo-table{
+  border: 1px  solid;
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+}
+
+.todo-table th, .todo-table td{
+  border: 1px solid;
+  padding: 5px;
+}
+.task-header{
+  width: 70%;
+}
+
+.task-edit{
+  width: 10%;
+}
+.task-delete{
+  width: 10%;
+}
+
+
+
